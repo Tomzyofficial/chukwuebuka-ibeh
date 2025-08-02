@@ -1,0 +1,98 @@
+@import "tailwindcss";
+* {
+  box-sizing: border-box;
+}
+:root {
+  --background: #000;
+  --text-color: #edede4;
+  --foreground: #1c2b33;
+}
+
+body {
+  background-color: var(--background);
+  overflow-x: hidden;
+  color: var(--text-color);
+}
+
+header.sticky {
+  padding: 10px 20px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+
+/* hero section */
+.banner-content {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("/images/bulb.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: 100% 100%;
+  color: white;
+}
+
+.wrapper-word {
+  border-radius: 10px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+  padding: 30px 30px;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 500;
+  width: 50%;
+  /* Centered by flex parent */
+}
+
+#demo-message::before {
+  content: "";
+  animation: changeText 8s ease infinite;
+}
+
+@keyframes changeText {
+  0% {
+    content: "Website/App Development";
+  }
+
+  40% {
+    content: "E-commerce";
+  }
+
+  70% {
+    content: "Responsive Designs";
+  }
+
+  100% {
+    content: "Website/App Monitoring";
+  }
+}
+
+/* media query */
+@media screen and (max-width: 991px) {
+  /* navigation header */
+  .nav-list {
+    position: fixed;
+    text-align: center;
+    background-color: white;
+    color: var(--text-color);
+    height: 100%;
+    padding-top: 20px;
+    width: 100%;
+    top: -100%;
+    left: 0;
+    z-index: 1;
+  }
+
+  .nav-list.show {
+    top: 12vh;
+  }
+
+  /* hero section */
+  .wrapper-word {
+    width: 90%;
+    font-size: 20px;
+  }
+}
