@@ -134,8 +134,6 @@ export function NavBar() {
           </div>
         </nav>
       </header>
-      {/* Spacer to prevent content from being hidden behind navbar */}
-      {/* <div className="h-[12vh]" /> */}
     </>
   );
 }

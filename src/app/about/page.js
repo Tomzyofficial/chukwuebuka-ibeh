@@ -54,7 +54,7 @@ export default function About() {
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div className="text-(--text-color)">
                 <h1 className="text-4xl md:text-6xl font-bold mb-6">
-                  Hi, I'm <span>Chukwuebuka Cornelius Ibeh</span>
+                  Hi, I&apos;m <span>Chukwuebuka Cornelius Ibeh</span>
                 </h1>
                 <Typography className="text-xl mb-8" variant="body1">
                   A passionate <strong>Full Stack Developer</strong> with 3
@@ -114,7 +114,7 @@ export default function About() {
                   className="text-lg text-muted-foreground mb-6"
                 >
                   My mission is to create solutions through code that make
-                  people's lives easier and enhance their quality of life. I'm
+                  people&apos;s lives easier and enhance their quality of life. I&apos;m
                   constantly seeking opportunities to grow—both professionally
                   and technically.
                 </Typography>
@@ -234,11 +234,11 @@ export default function About() {
         <section className="py-20">
           <div className="mx-auto max-w-2xl px-4 text-center">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
-              Let's Work Together
+              Let&apos;s Work Together
             </h2>
             <Typography variant="body4" className="text-xl opacity-90 mb-8 ">
-              I'm always interested in new opportunities and exciting projects.
-              Whether you have a question or just want to say hi, I'd love to
+              I&apos;m always interested in new opportunities and exciting projects.
+              Whether you have a question or just want to say hi, I&apos;d love to
               hear from you!
             </Typography>
           </div>

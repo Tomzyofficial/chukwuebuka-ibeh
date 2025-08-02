@@ -47,8 +47,8 @@ export default function Contact() {
               Reach out on my socials
             </Typography>
             <Typography>
-              I'm always excited to collaborate on innovative projects. Whether
-              you have a clear vision or just an idea, let's bring it to life
+              I&apos;m always excited to collaborate on innovative projects. Whether
+              you have a clear vision or just an idea, let&apos;s bring it to life
               together.
             </Typography>
           </div>

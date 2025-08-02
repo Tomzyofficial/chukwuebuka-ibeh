@@ -29,7 +29,7 @@ export function Footer() {
           href="/contact"
           className="text-[3rem] font-bold no-underline text-(--text-color) bg-[var(--foreground)] py-2 px-20"
         >
-          Let's talk
+          Let&apos;s talk
         </Link>
       </div>
 
