@@ -1,30 +1,20 @@
 import "@/app/styles/globals.css";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Sansation } from "next/font/google";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const sansation = Sansation({
+  weight: ["300", "400", "700"],
   subsets: ["latin"],
 });
 
 export const metadata = {
-  title: "Home | Tomzywork4u",
-  description:
-    "Home | Tomzywork4u, Portfolio, work from home, website building",
+  title: "Chukwuebuka Cornelius Ibeh - Home",
+  description: "Portfolio, work from home, Next.js website building.",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
-      </body>
+      <body className={`${sansation.className} antialiased`}>{children}</body>
     </html>
   );
 }
