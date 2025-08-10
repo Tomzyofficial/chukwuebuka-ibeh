@@ -1,6 +1,5 @@
 "use client";
 
-import Button from "@mui/material/Button";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Card from "@mui/material/Card";
@@ -26,7 +25,7 @@ const projects = [
       "A sleek and responsive online banking interface, built to showcase essential design and fullstack development skills.",
     image: "/images/blueseed-screenshot.png?height=300&width=500",
     tags: ["PHP", "TailwindCSS", "HTML5", "PHPMailer", "MySQL", "Third-party API"],
-    demo: "#",
+    demo: "https://blueseedfinance.wuaze.com/",
   },
   {
     title: "Outrest Web Application",
@@ -50,10 +49,12 @@ const projects = [
     description:
       "Crypto investment web application tailored at seamless investment plans with ROI. While not connected to a real crypto backend, the website showcases the core design and implementation of fullstack development.  ",
     image: "/images/whitesky-screenshot.png?height=300&width=500",
-    tags: ["HTML5", "JavaScript.js", "TailwindCSS", "MySQL"],
+    tags: ["HTML5", "JavaScript.js", "Bootstrap", "CSS", "MySQL"],
     category: "Analytics",
-    demo: "#",
+    demo: "https://whiteskyventures.wuaze.com/",
   },
+
+  
 ];
 
 export default function ProjectsPage() {

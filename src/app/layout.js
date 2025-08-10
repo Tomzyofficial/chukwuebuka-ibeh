@@ -1,7 +1,7 @@
 import "@/app/styles/globals.css";
-import { Sansation } from "next/font/google";
+import { Inter } from "next/font/google";
 
-const sansation = Sansation({
+const inter = Inter({
   weight: ["300", "400", "700"],
   subsets: ["latin"],
 });
@@ -14,7 +14,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${sansation.className} antialiased`}>{children}</body>
+      <body className={`${inter.className} antialiased`}>{children}</body>
     </html>
   );
 }

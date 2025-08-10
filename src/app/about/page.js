@@ -82,10 +82,6 @@ export default function About() {
                   height={400}
                   className="rounded-2xl shadow-2xl object-cover"
                 />
-                <div
-                  aria-label="Animation"
-                  className="absolute w-full h-full rounded-full bottom-0 right-5 p-4 bg-white animate-ping"
-                ></div>
               </div>
             </div>
           </div>
