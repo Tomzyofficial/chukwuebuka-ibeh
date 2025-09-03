@@ -8,7 +8,8 @@ const inter = Inter({
 
 export const metadata = {
   title: "Chukwuebuka Cornelius Ibeh - Home",
-  description: "Portfolio, work from home, Next.js website building.",
+  description:
+    "Portfolio, work from home, Next.js website building. Explore my projects, skills, and professional experience.",
 };
 
 export default function RootLayout({ children }) {

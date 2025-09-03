@@ -110,9 +110,9 @@ export default function About() {
                   className="text-lg text-muted-foreground mb-6"
                 >
                   My mission is to create solutions through code that make
-                  people&apos;s lives easier and enhance their quality of life. I&apos;m
-                  constantly seeking opportunities to grow—both professionally
-                  and technically.
+                  people&apos;s lives easier and enhance their quality of life.
+                  I&apos;m constantly seeking opportunities to grow—both
+                  professionally and technically.
                 </Typography>
               </div>
               <div className="space-y-6">
@@ -136,9 +136,9 @@ export default function About() {
         {/* Skills Section */}
         <section className="py-15 mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
+            <h3 className="text-3xl md:text-4xl font-bold text-center mb-12">
               Skills & Technologies
-            </h2>
+            </h3>
             <div className="grid md:grid-cols-2 gap-8">
               {skills.map((skill, index) => (
                 <div key={index} className="space-y-2">
@@ -161,9 +161,9 @@ export default function About() {
         {/* Experience Section */}
         <section className="py-20">
           <div className="max-w-4xl mx-auto px-4">
-            <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
+            <h4 className="text-3xl md:text-4xl font-bold text-center mb-12">
               Experience
-            </h2>
+            </h4>
             <div className="space-y-8">
               {experiences.map((exp, index) => (
                 <Card key={index} className="p-6">
@@ -188,9 +188,9 @@ export default function About() {
         {/* Fun Facts */}
         <section className="py-20">
           <div className="mx-auto px-4 max-w-4xl text-center">
-            <h2 className="text-3xl md:text-4xl font-bold mb-12">
+            <h5 className="text-3xl md:text-4xl font-bold mb-12">
               Fun Facts About Me
-            </h2>
+            </h5>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
               <div>
                 <div className="text-4xl mb-2">💧</div>
@@ -229,13 +229,13 @@ export default function About() {
         {/* CTA Section */}
         <section className="py-20">
           <div className="mx-auto max-w-2xl px-4 text-center">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">
+            <h6 className="text-3xl md:text-4xl font-bold mb-4">
               Let&apos;s Work Together
-            </h2>
+            </h6>
             <Typography variant="body4" className="text-xl opacity-90 mb-8 ">
-              I&apos;m always interested in new opportunities and exciting projects.
-              Whether you have a question or just want to say hi, I&apos;d love to
-              hear from you!
+              I&apos;m always interested in new opportunities and exciting
+              projects. Whether you have a question or just want to say hi,
+              I&apos;d love to hear from you!
             </Typography>
           </div>
         </section>

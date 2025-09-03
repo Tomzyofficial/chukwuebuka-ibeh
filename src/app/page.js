@@ -1,14 +1,10 @@
-"use client";
-import { useState } from "react";
 import Image from "next/image";
 
 import { NavBar } from "@/components/ui/Navbar";
 
 import { Footer } from "@/components/ui/Footer";
-import { useEffect } from "react";
 
 export default function Home() {
-
   const mainContent = [
     {
       label: "Website/App Development",
@@ -31,17 +27,6 @@ export default function Home() {
       altText: "Website Monitoring",
     },
   ];
-
-  const TextRotator = () => {
-    const texts = [
-      "We build modern web apps.",
-      "Your success is our mission.",
-      "Innovation starts here."
-    ];
-  }
-
-  const [index, setIndex] = useState(0);
-  const [show, setShow] = useState(true);
 
   return (
     <>

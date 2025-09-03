@@ -22,9 +22,9 @@ export function Footer() {
   return (
     <footer>
       <div className="my-30 flex justify-center items-center flex-col">
-        <h5 className="font-semibold text-[20px] pb-5 text-(--text-color)">
+        <span className="font-semibold text-[20px] pb-5 text-(--text-color)">
           Ready to discuss your project?
-        </h5>
+        </span>
         <Link
           href="/contact"
           className="text-[3rem] font-bold no-underline text-(--text-color) bg-[var(--foreground)] py-2 px-20"

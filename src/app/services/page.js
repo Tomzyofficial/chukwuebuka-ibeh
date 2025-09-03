@@ -25,9 +25,9 @@ export default function About() {
 
       <section id="services" className="services">
         <div className="max-w-6xl mx-auto py-20">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
+          <h1 className="text-3xl md:text-4xl font-bold text-center mb-12">
             Services
-          </h2>
+          </h1>
           <div className="flex flex-col md:flex-row p-4 justify-around gap-4">
             {services.map((service, index) => (
               <div key={index}>
