@@ -20,12 +20,19 @@ const projects = [
     demo: "https://xe-xchanger.netlify.app",
   },
   {
-    title: "Blueseedfinance Online Banking Web application",
+    title: "Blueseedfinances Online Banking Web application",
     description:
       "A sleek and responsive online banking interface, built to showcase essential design and fullstack development skills.",
     image: "/images/blueseed-screenshot.png?height=300&width=500",
-    tags: ["PHP", "TailwindCSS", "HTML5", "PHPMailer", "MySQL", "Third-party API"],
-    demo: "https://blueseedfinance.wuaze.com/",
+    tags: [
+      "PHP",
+      "TailwindCSS",
+      "HTML5",
+      "PHPMailer",
+      "MySQL",
+      "Third-party API",
+    ],
+    demo: "https://blueseedfinances.wuaze.com/",
   },
   {
     title: "Outrest Web Application",
@@ -42,7 +49,7 @@ const projects = [
     image: "/images/tip.png?height=300&width=500",
     tags: ["PHP", "API Integration", "Bootstrap", "CSS", "MySQL"],
     category: "Web App",
-    demo: "https://tomcrypto.wuaze.com/",
+    demo: "https://tomexchange.wuaze.com/",
   },
   {
     title: "Crypto Investment Web Application",
@@ -53,8 +60,6 @@ const projects = [
     category: "Analytics",
     demo: "https://whiteskyventures.wuaze.com/",
   },
-
-  
 ];
 
 export default function ProjectsPage() {
